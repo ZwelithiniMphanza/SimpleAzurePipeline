@@ -11,7 +11,7 @@ namespace SimplePipeline.Test
         public void GetReturnsTemperatureString()
         {
             var temp = controller.Get();
-            Assert.Equal("The temperature is 35 degrees celcius", temp.Value);
+            Assert.Equal("The temperature is 35 degree celcius", temp.Value);
         }
     }
 }
