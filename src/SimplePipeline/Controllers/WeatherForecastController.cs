@@ -15,7 +15,7 @@ namespace SimplePipeline.Controllers
         [HttpGet]
         public ActionResult<string> Get()
         {
-            return "The temperature is 34 degrees celcius";
+            return "The temperature is 35 degrees celcius";
         }
     }
 }
